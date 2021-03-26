@@ -2,13 +2,15 @@
 //for loop
 import java.util.*;
 import java.util.Scanner;
-public class Math{
-static int a;
-static int b;
+class Math{
+ int a;
+ int b;
 public Math(int a,int b){
     this.a=a;
     this.b=b;
 }
+}
+public class hello{
      public static void main(String []args){
          Scanner s=new Scanner(System.in);
          a=s.nextInt();
@@ -26,8 +28,8 @@ public Math(int a,int b){
 import java.util.*;
 import java.util.Scanner;
 public class Math{
-static int a;
-static int b;
+ int a;
+ int b;
 public Math(int a,int b){
     this.a=a;
     this.b=b;

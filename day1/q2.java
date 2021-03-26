@@ -1,13 +1,15 @@
 import java.util.*;
 import java.util.Scanner;
-public class Math{
+ class Math{
 static int a;
 static int b;
 public Math(int a,int b){
     this.a=a;
     this.b=b;
 }
-     public static void main(String []args){
+}
+public class hello{
+    public static void main(String []args){
          Scanner s=new Scanner(System.in);
          a=s.nextInt();
          b=s.nextInt();
@@ -33,13 +35,15 @@ public Math(int a,int b){
 //using case
 import java.util.*;
 import java.util.Scanner;
-public class Math{
-static int a;
-static int b;
+ class Math{
+ int a;
+ int b;
 public Math(int a,int b){
     this.a=a;
     this.b=b;
 }
+}
+public class hello{
      public static void main(String []args){
          Scanner s=new Scanner(System.in);
          a=s.nextInt();

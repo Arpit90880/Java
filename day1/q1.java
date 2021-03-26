@@ -1,34 +1,38 @@
 //1st
 import java.util.*;
 import java.util.Scanner;
-public class Math{
-static int a;
-static int b;
-public Math(int a,int b){
+ class math{
+ int a;
+ int b;
+public math(int a,int b){
     this.a=a;
     this.b=b;
 }
-     public static void main(String []args){
-         Scanner s=new Scanner(System.in);
-         a=s.nextInt();
-         b=s.nextInt();
-        System.out.println(add(a,b));
-        System.out.println(subtract(a,b));
-        System.out.println(multiply(a,b));
-        System.out.println(divide(a,b));
-     }
-     public static int add(int a,int b){
+     public  int add(){
          return a+b;
      }
-     public static int subtract(int a,int b){
+     public  int subtract(){
         if(a>b)
          return (a-b);
         return b-a;
      }
-     public static int multiply(int a,int b){
+     public  int multiply(){
          return a*b;
      }
-     public static int divide(int a,int b){
+     public  int divide(){
          return a/b;
      }
+}
+ public class hello{
+     public static void main(String []args){
+        Scanner s=new Scanner(System.in);
+        math m=new math(s.nextInt(),s.nextInt());
+        System.out.println(m.add());
+        System.out.println(m.subtract());
+        System.out.println(m.multiply());
+        System.out.println(m.divide());
+     }
+     
+     
+
 }
