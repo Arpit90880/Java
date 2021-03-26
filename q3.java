@@ -1,3 +1,4 @@
+//3rd
 import java.util.*;
 public class Math1{
 private int a;

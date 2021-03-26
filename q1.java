@@ -1,3 +1,4 @@
+//1st
 import java.util.*;
 import java.util.Scanner;
 public class Math{

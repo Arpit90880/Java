@@ -60,7 +60,6 @@ public Math(int a,int b){
          else if(a==b){
              level=4;
          }
-         
          switch(level){
          case 1:
             System.out.println(a+b);
