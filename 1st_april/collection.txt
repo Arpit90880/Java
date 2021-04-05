@@ -1,0 +1,23 @@
+//hashmap
+import java.util.*;  
+class main{  
+ public static void main(String args[]){  
+  HashSet<String> set=new HashSet<String>();  
+  set.add("aman");  
+  set.add("raj");  
+  set.add("yash");  
+  set.add("arpit"); 
+  set.add("arpit"); 
+  Iterator<String> it=set.iterator();  
+  while(it.hasNext()){  
+   System.out.println(it.next());  
+  }
+LinkedList<String> list = new LinkedList<>(); 
+    
+  list.add("aman");  
+  list.add("raj");  
+  list.add("yash");  
+  list.add("arpit");   
+  System.out.println(list); 
+ }  
+}  
