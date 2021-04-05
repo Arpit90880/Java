@@ -1,0 +1,30 @@
+
+
+public class Main
+{
+	
+  
+   public static < T > void print(T[] arr) {  
+        for ( T e : arr){          
+            System.out.print(e+" ");  
+         }  
+           
+    }  
+    public static < T > void print1(HashMap<T,T> map) {  
+        for ( T e : map.keySet()){          
+            System.out.print(map.get(e)+" ");  
+         }  
+           
+    }  
+    public static void main( String args[] ) {  
+        String[] arr = { "1","2","3","4","1","2","3","4","5","4"};  
+        print(arr); 
+        HashMap<String,Integer> map=new HashMap<>();
+        for(String a:arr){
+            map.put(a,map.getOrDefault(a,0)+1);
+        }
+        print1(map);
+        
+    }   
+}
+
